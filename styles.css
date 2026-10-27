@@ -91,3 +91,43 @@ a {
 .sub-item-link:active {
   color: #d93025;
 }
+
+/* ==========================================================
+   ESTILOS ADICIONALES Y MEJORAS DE DISEÑO AVANZADO PARA 
+   LA LISTA DE TAREAS INTERACTIVA (CSS EXPANDIDO)
+   ========================================================== */
+
+/* Transiciones suaves para los elementos de la lista */
+.todo-list > li {
+  transition: all 0.3s ease;
+}
+
+.todo-list > li:hover {
+  background-color: #d4edda;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilo personalizado para los checkboxes de la aplicación */
+.todo-list input[type="checkbox"] {
+  accent-color: #1a73e8;
+  width: 16px;
+  height: 16px;
+}
+
+/* Efectos visuales para las etiquetas de las tareas */
+.todo-list label {
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  transition: color 0.2s ease;
+}
+
+/* Efectos de transición en los enlaces de las sub-listas */
+.sub-item-link {
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.sub-item-link:hover {
+  transform: translateX(3px);
+}
