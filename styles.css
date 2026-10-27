@@ -1,13 +1,13 @@
 /* Fondo general de la página */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
+  background: radial-gradient(circle at center, #f4f6f8, #cbd5e1);
   color: #333;
   margin: 0;
   padding: 20px;
 }
 
-/* El cuadro grande del fondo (Estilo Tarjeta) */
+/* El cuadro grande del fondo (Estilo Tarjeta) - Nota el guion: .todo-container */
 .todo-container {
   background-color: #ffffff;
   max-width: 550px;
